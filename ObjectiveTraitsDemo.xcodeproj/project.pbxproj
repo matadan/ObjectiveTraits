@@ -18,6 +18,13 @@
 		A17243C918740C75006759B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17243A818740C74006759B6 /* Cocoa.framework */; };
 		A17243D118740C75006759B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A17243CF18740C75006759B6 /* InfoPlist.strings */; };
 		A17243D318740C75006759B6 /* ObjectiveTraitsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243D218740C75006759B6 /* ObjectiveTraitsDemoTests.m */; };
+		A17243E118740CA6006759B6 /* NSObject+PATraits.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243DE18740CA6006759B6 /* NSObject+PATraits.m */; };
+		A17243E218740CA6006759B6 /* PATrait.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243E018740CA6006759B6 /* PATrait.m */; };
+		A17243EC18740D87006759B6 /* TCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243E518740D87006759B6 /* TCircle.m */; };
+		A17243ED18740D87006759B6 /* TColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243E718740D87006759B6 /* TColor.m */; };
+		A17243EE18740D87006759B6 /* TEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243E918740D87006759B6 /* TEquality.m */; };
+		A17243EF18740D87006759B6 /* TMagnitude.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243EB18740D87006759B6 /* TMagnitude.m */; };
+		A17243F218740D9D006759B6 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = A17243F018740D9D006759B6 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,20 @@
 		A17243CE18740C75006759B6 /* ObjectiveTraitsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveTraitsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A17243D018740C75006759B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A17243D218740C75006759B6 /* ObjectiveTraitsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveTraitsDemoTests.m; sourceTree = "<group>"; };
+		A17243DD18740CA6006759B6 /* NSObject+PATraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PATraits.h"; sourceTree = "<group>"; };
+		A17243DE18740CA6006759B6 /* NSObject+PATraits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PATraits.m"; sourceTree = "<group>"; };
+		A17243DF18740CA6006759B6 /* PATrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATrait.h; sourceTree = "<group>"; };
+		A17243E018740CA6006759B6 /* PATrait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATrait.m; sourceTree = "<group>"; };
+		A17243E418740D87006759B6 /* TCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCircle.h; sourceTree = "<group>"; };
+		A17243E518740D87006759B6 /* TCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCircle.m; sourceTree = "<group>"; };
+		A17243E618740D87006759B6 /* TColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TColor.h; sourceTree = "<group>"; };
+		A17243E718740D87006759B6 /* TColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TColor.m; sourceTree = "<group>"; };
+		A17243E818740D87006759B6 /* TEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEquality.h; sourceTree = "<group>"; };
+		A17243E918740D87006759B6 /* TEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEquality.m; sourceTree = "<group>"; };
+		A17243EA18740D87006759B6 /* TMagnitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMagnitude.h; sourceTree = "<group>"; };
+		A17243EB18740D87006759B6 /* TMagnitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMagnitude.m; sourceTree = "<group>"; };
+		A17243F018740D9D006759B6 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		A17243F118740D9D006759B6 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +97,8 @@
 		A172439C18740C74006759B6 = {
 			isa = PBXGroup;
 			children = (
+				A17243E318740D87006759B6 /* Traits */,
+				A17243DC18740CA6006759B6 /* PATraits */,
 				A17243AE18740C74006759B6 /* ObjectiveTraitsDemo */,
 				A17243CC18740C75006759B6 /* ObjectiveTraitsDemoTests */,
 				A17243A718740C74006759B6 /* Frameworks */,
@@ -115,6 +138,8 @@
 		A17243AE18740C74006759B6 /* ObjectiveTraitsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A17243F018740D9D006759B6 /* Circle.m */,
+				A17243F118740D9D006759B6 /* Circle.h */,
 				A17243BA18740C74006759B6 /* AppDelegate.h */,
 				A17243BB18740C74006759B6 /* AppDelegate.m */,
 				A17243BD18740C74006759B6 /* MainMenu.xib */,
@@ -152,6 +177,32 @@
 				A17243CF18740C75006759B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A17243DC18740CA6006759B6 /* PATraits */ = {
+			isa = PBXGroup;
+			children = (
+				A17243DD18740CA6006759B6 /* NSObject+PATraits.h */,
+				A17243DE18740CA6006759B6 /* NSObject+PATraits.m */,
+				A17243DF18740CA6006759B6 /* PATrait.h */,
+				A17243E018740CA6006759B6 /* PATrait.m */,
+			);
+			path = PATraits;
+			sourceTree = "<group>";
+		};
+		A17243E318740D87006759B6 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				A17243E518740D87006759B6 /* TCircle.m */,
+				A17243E418740D87006759B6 /* TCircle.h */,
+				A17243E718740D87006759B6 /* TColor.m */,
+				A17243E618740D87006759B6 /* TColor.h */,
+				A17243E918740D87006759B6 /* TEquality.m */,
+				A17243E818740D87006759B6 /* TEquality.h */,
+				A17243EB18740D87006759B6 /* TMagnitude.m */,
+				A17243EA18740D87006759B6 /* TMagnitude.h */,
+			);
+			path = Traits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17243E118740CA6006759B6 /* NSObject+PATraits.m in Sources */,
+				A17243EF18740D87006759B6 /* TMagnitude.m in Sources */,
+				A17243EC18740D87006759B6 /* TCircle.m in Sources */,
+				A17243F218740D9D006759B6 /* Circle.m in Sources */,
+				A17243ED18740D87006759B6 /* TColor.m in Sources */,
+				A17243E218740CA6006759B6 /* PATrait.m in Sources */,
+				A17243EE18740D87006759B6 /* TEquality.m in Sources */,
 				A17243BC18740C74006759B6 /* AppDelegate.m in Sources */,
 				A17243B518740C74006759B6 /* main.m in Sources */,
 			);
